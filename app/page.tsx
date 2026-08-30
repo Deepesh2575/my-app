@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Activity, ShieldAlert, History, Settings, CheckCircle2, AlertTriangle, MapPin, RadioTower, X, Fingerprint, Database, Maximize2, Server, Cpu, HardDrive, Network, Link, Check, Clock } from "lucide-react";
+import { Activity, ShieldAlert, History, Settings, CheckCircle2, AlertTriangle, MapPin, RadioTower, X, Fingerprint, Database, Maximize2, Server, Cpu, Network, Link, Check, Clock } from "lucide-react";
 import Map, { Marker } from "react-map-gl/maplibre";
 import 'maplibre-gl/dist/maplibre-gl.css';
 
