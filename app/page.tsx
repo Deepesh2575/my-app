@@ -358,7 +358,7 @@ export default function DisasterCommandCenter() {
                 initialViewState={{ longitude: 77.2090, latitude: 28.6139, zoom: 12, pitch: 45 }}
                 mapStyle="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
                 interactive={true}
-                className="w-full h-full"
+                style={{ width: '100%', height: '100%' }}
              >
                 {/* LIVE NODES FROM BACKEND */}
                 {liveEvents.map((evt, i) => (
@@ -457,7 +457,7 @@ export default function DisasterCommandCenter() {
                   initialViewState={{ longitude: 77.2090, latitude: 28.6139, zoom: 12, pitch: 45 }}
                   mapStyle="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
                   interactive={true}
-                  className="w-full h-full"
+                  style={{ width: '100%', height: '100%' }}
               >
                   {liveEvents.map((evt, i) => (
                      <Marker key={i} longitude={evt.longitude || 77.2090} latitude={evt.latitude || 28.6139}>
